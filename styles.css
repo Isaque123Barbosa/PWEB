@@ -1,0 +1,63 @@
+#login{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    height: 100vh;
+}
+
+form{
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;    
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;    
+    gap: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("assets/fundo-gradiente-azul-claro-de-inverno_53876-126054.avif");
+    background-size: 1820px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 100vh;          
+    margin: 0; 
+}
+
+input{
+    width: 170px;
+}
+
+#buttom-area{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+#forgot-password{
+    font-size: 12px;
+    align-self: flex-start;
+}
+
+button{
+    height: 24px;
+    background-color: white;
+    border-radius: 10px;
+    border: 0;
+    border-color: gray;
+    box-shadow: 2px 2px 5px gray;
+}
