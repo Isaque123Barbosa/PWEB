@@ -1,0 +1,71 @@
+body, html {
+    margin: auto;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#sidemenu-box{
+    height: 100%;
+    width: 175px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(105, 103, 103);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 15px;
+}
+
+#sidemenu-box:hover{
+    width: 200px;
+    transition: 0.33s;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#nbl-logo{
+    width: 100px;
+    height: 100px;
+}
+
+#item-list{
+    height: 600px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.item{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.item:hover{
+    color: rgb(199, 191, 191);
+}
+
+#profile-box{
+    align-self: flex-end;
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-direction: column;
+}
+
+#foto-perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+#username{
+    color: white;
+    font-weight: bold;
+}
